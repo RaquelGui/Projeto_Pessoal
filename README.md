@@ -19,5 +19,11 @@ Projeto pessoal para criação de um site simples de imóveis de aluguel por tem
 
 Primeira utilização de código JavaScript.
 
+<br>
+
+## Observação
+
+Pasta ./assets não incluída devido conteúdo particular.
+
 
 
