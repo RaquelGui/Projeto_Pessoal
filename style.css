@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;    
+}
+body {
+    background-color: #074974;
+    justify-content: center;
+    font-family: "Roboto", sans-serif; /* Usa Roboto, ou fonte sans-serif genérica */
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #074974;
+}
+
+.menu {
+    width: 15%;
+    color: white;
+    background-color: #074974;
+    text-align: left;
+    padding: 20px;
+}
+.menu h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; /* Remove o sublinhado padrão dos links*/
+    text-align: left;
+}
+
+.menu a:hover {
+    color: #0077cc;
+}
+
+.menu ul {
+    list-style: none; /* Remove o marcador padrão da lista */
+    white-space: nowrap;  /* Evita a quebra de linha */
+}
+    
+.content {
+    background-color: #C5F3F1;
+    padding: 5% 5% 2% 5%;
+    justify-content: center;
+    color: #074974;
+}
+
+.imoveis {
+    display: flex;
+    justify-content: center;
+}
+
+.imovel {
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #074974;
+}
+
+.imovel img {
+    max-width: 100%;
+}
+
+.imovel a {
+    text-decoration: none; 
+    color: #074974;
+    text-align: center;
+}
+
+.imovel a:hover {
+    color: blue;
+}
+
+.carrosel-container {
+    overflow: hidden; /* Oculta o conteúdo que excede o container */
+    width: 100%;
+    margin: auto;
+}
+
+.carrosel {
+    display: flex; /* Exibe os slides lado a lado */
+    transition: transform 0.5s ease; /* Adiciona transição suave ao deslizar */
+}
+
+.slide {
+    flex: 0 0 100%; 
+    display: flex;
+    align-items: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Navegação (botões) */
+.carrosel-nav {
+    display: flex;
+    justify-content: center; /* Alinha os botões*/
+    margin-top: 10px;
+}
+
+.carrosel-nav button {
+    background-color: #074974;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: #074974;
+    min-height: 150px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none; 
+    }
+
+.footer a:hover {
+    color: blue;
+}
